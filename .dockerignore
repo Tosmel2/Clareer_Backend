@@ -1,0 +1,13 @@
+# Ignore Maven's target folder
+target/
+
+# Ignore Git files
+.git/
+
+# Ignore IDE files (e.g., IntelliJ, Eclipse)
+.idea/
+.vscode/
+
+# Ignore any other sensitive or unnecessary files
+*.log
+*.iml
