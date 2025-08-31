@@ -25,4 +25,11 @@ public class AuthController {
             return "Invalid credentials";
         }
     }
+
+    @PostMapping("/logout")
+    public String logout(@RequestParam String email) {
+        authService.logout(email);
+        return "Logout successful";
+    }
+
 }

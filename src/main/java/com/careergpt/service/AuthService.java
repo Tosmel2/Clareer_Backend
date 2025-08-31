@@ -33,4 +33,8 @@ public class AuthService {
         }
         return null;
     }
+
+    public void logout(String email) {
+        // For JWT, logout is typically handled on the client by deleting the token.
+    }
 }
